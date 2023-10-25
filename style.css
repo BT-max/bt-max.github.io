@@ -74,3 +74,21 @@ a:hover {
   font-size: 4rem;
   font-weight: normal;
 }
+
+#contact {
+  text-align: center;
+  padding: 3rem 0;
+  background-color: var(--plum);
+}
+
+#contact .container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#contact address {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
