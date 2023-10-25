@@ -48,3 +48,29 @@ a:hover {
   color: var(--hotmag);
   text-decoration: none;
 }
+
+#intro {
+  padding-bottom: 3rem;
+}
+
+#intro p {
+  margin-top: 3rem;
+  font-size: 1rem;
+  line-height: 1.5; /* proportional to 1.5 times font-size; else text will overlap in accessibility */
+}
+
+#intro .name {
+  font-family: var(--mono);
+}
+
+.name span {
+  font-family: var(--sans);
+  font-size: 4rem;
+  color: var(--aqua);
+  display: block;
+}
+
+#intro h2 {
+  font-size: 4rem;
+  font-weight: normal;
+}
